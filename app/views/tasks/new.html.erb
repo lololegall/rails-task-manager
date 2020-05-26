@@ -8,4 +8,7 @@
   <%= f.submit %>
 <% end %>
 
-<p><%= link_to("Back to list", tasks_path) %></p>
+<hr>
+<%= link_to tasks_path do %>
+  <i class="fa fa-history"></i> Back to list
+<% end %>

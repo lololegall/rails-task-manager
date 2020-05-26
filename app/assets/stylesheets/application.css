@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+
+#tasks {
+  padding-left: 0;
+  list-style-type: none;
+}

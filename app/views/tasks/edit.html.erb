@@ -7,7 +7,10 @@
   <%= f.text_field :details %>
   <br><br>
   <%= f.check_box :completed %><p>Completed</p>
-  <%= f.submit %>
+  <i class="btn btn-default"><%= f.submit %></i>
 <% end %>
 
-<p><%= link_to("Back to list", tasks_path) %></p>
+<hr>
+<%= link_to tasks_path do %>
+  <i class="fa fa-history"></i> Back to list
+<% end %>
